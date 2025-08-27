@@ -491,7 +491,7 @@
       {/if}
     </g>
 
-    <!-- PLANE SEATING SECTION (2) -->
+    <!-- PLANE SEATING SECTION (Compare) -->
     <g transform="translate({margin.left}, {margin.top})">
       {#if scrollIndex == 6 && fieldDataset.length}
         <!-- China -->
