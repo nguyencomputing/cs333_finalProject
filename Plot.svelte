@@ -20,7 +20,7 @@
   let fieldData = $state();
 
   onMount(async () => {
-    enrollmentData = await csv("https://raw.githubusercontent.com/nguyencomputing/cs333_finalProject/refs/heads/main/enrollmentData.csv");
+    enrollmentData = await csv("https://raw.githubusercontent.com/nguyencomputing/cs333_finalProject/refs/heads/master/enrollmentData.csv");
     countryData = await csv('https://raw.githubusercontent.com/beavillaflor/cs333_finalProject/refs/heads/main/countryData.csv');
     fieldData = await csv('https://raw.githubusercontent.com/amiemasih/cs333_finalProject/refs/heads/main/fieldsOfStudy.csv');
   });
